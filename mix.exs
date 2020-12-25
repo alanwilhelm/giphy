@@ -33,9 +33,9 @@ defmodule Giphy.Mixfile do
   end
 
   defp deps do
-    [{:httpoison, "~> 0.11"},
-     {:poison, "~> 3.1"},
-     {:calendar, "~> 0.16"},
+    [{:httpoison, "~> 1.7"},
+     {:poison, "~> 4.0"},
+     {:calendar, "~> 1.0"},
      {:ex_doc, "~> 0.12", only: :dev, runtime: false},
      {:inch_ex, "~> 0.5", only: :docs, runtime: false}]
   end
